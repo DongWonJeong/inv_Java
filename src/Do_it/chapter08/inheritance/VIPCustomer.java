@@ -21,7 +21,8 @@ public class VIPCustomer extends Customer{
 		this.agentID = agentID;
 	//	System.out.println("VIPCusomer(int, String) ������ ȣ��");
 	}
-	
+
+
 	public int calcPrice(int price){
 		bonusPoint += price * bonusRatio;
 		return price - (int)(price * saleRatio);

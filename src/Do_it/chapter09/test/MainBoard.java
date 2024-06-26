@@ -1,5 +1,9 @@
 package Do_it.chapter09.test;
 
+import Do_it.chapter09.gamelevel.AdvancedLevel;
+import Do_it.chapter09.gamelevel.Player;
+import Do_it.chapter09.gamelevel.SuperLevel;
+
 public class MainBoard {
 
 	public static void main(String[] args) {

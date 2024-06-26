@@ -5,10 +5,10 @@ public class UsingDefine {
 	public static void main(String[] args) {
 
 		System.out.println(Define.GOOD_MORNING);   //static ���� ����Ǿ����Ƿ� Ŭ���� �̸����� ���� �մϴ�.
-		System.out.println("�ּڰ��� " +  Define.MIN + "�Դϴ�.");
-		System.out.println("�ִ��� " +  Define.MAX + "�Դϴ�.");
-		System.out.println("���� ���� �ڵ� ���� " + Define.MATH + "�Դϴ�.");
-		System.out.println("���� ���� �ڵ� ���� " + Define.ENG + "�Դϴ�.");
+		System.out.println("최솟값은 " +  Define.MIN + "입니다.");
+		System.out.println("최댓값은 " +  Define.MAX + "입니다.");
+		System.out.println("수학 과목 코드 값은 " + Define.MATH + "입니다.");
+		System.out.println("영어 과목 코드 값은 " + Define.ENG + "입니다.");
 		
 	}
 

@@ -32,7 +32,7 @@ public class Customer {
 	}
 	
 	public String showCustomerInfo(){
-		return customerName + " ���� ����� " + customerGrade + "�̸�, ���ʽ� ����Ʈ�� " + bonusPoint + "�Դϴ�.";  
+		return customerName + " 님의 현재 등급은 " + customerGrade + "이며, 현재 보너스 포인트는 " + bonusPoint + "입니다.";
 	}
 	
 	public int getCustomerID() {

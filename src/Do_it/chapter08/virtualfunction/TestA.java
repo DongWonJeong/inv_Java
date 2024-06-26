@@ -5,7 +5,7 @@ public class TestA {
 	int num;
 
 	void aaa(){
-		System.out.println("aaa() ���");
+		System.out.println("aaa() 출력");
 	}
 	
 	public static void main(String[] args){

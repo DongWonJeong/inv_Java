@@ -5,43 +5,43 @@ import java.util.ArrayList;
 class Animal{
 	public void move()
 	{
-		System.out.println("������ �����Դϴ�.");
+		System.out.println("동물이 움직입니다.");
 	}
 }
 
 class Human extends Animal{
 	public void move()
 	{
-		System.out.println("����� �� �߷� �Ƚ��ϴ�. ");
+		System.out.println("사람이 두 발로 걷습니다. ");
 	}
 	
 	public void readBook()
 	{
-		System.out.println("����� å�� �н��ϴ�. ");
+		System.out.println("사람이 책을 읽습니다. ");
 	}
 }
 
 class Tiger extends Animal{
 	public void move()
 	{
-		System.out.println("ȣ���̰� �� �߷� �ݴϴ�. ");
+		System.out.println("호랑이가 네발로 뜁니다. ");
 	}
 	
 	public void hunting() 
 	{
-		System.out.println("ȣ���̰� ����� �մϴ�. ");
+		System.out.println("호랑이가 사냥을 합니다. ");
 	}
 }
 
 class Eagle extends Animal{
 	public void move()
 	{
-		System.out.println("�������� �ϴ��� ���ϴ� ");
+		System.out.println("독수리가 하늘을 납니다.");
 	}
 	
 	public void flying() 
 	{
-		System.out.print("�������� ������ �� ��� �ָ� ���ư��ϴ�");
+		System.out.print("");
 	}
 }
 
